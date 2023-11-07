@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark-subtle">
+            <div class="container">
+                <a class="navbar-brand">AskExperts</a>
+                <div class="collapse navbar-collapse">
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-primary" type="submit">Ask!</button>
+                    </form>  
+                </div>
+                    <div class="my-photo">
+                        <img src="C:\Users\arkhi\OneDrive\Рабочий стол\технопарк\веб\кот.jpg">
+                    </div>
+                    <div class="name-settings-logout justify-content-end">
+                        <div class="name">Alexandra Arkhipova</div>
+                        <div class="settings-logout d-flex">
+                            <p>settings</p>
+                            <p>log out</p>
+                        </div>
+                    </div>
+            </div>
+        </nav>
+        <div class="row align-items-start">
+            <div class="new-question-form">New Question</div>
+            <div class="questions-form col">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label" id="newQuestionForm">Title</label>
+                    <input class="form-control" id="newQuestionFormCard">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label" id="newQuestionForm">Text</label>
+                    <textarea class="form-control" rows="3"></textarea>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label" id="newQuestionForm">Tags</label>
+                    <input class="form-control" id="newQuestionFormCard">
+                  </div>
+                  <button type="submit" class="ask-button submit btn btn-primary">Ask!</button>
+            </div>
+            <div class="tags-members col" id="forms">
+                <div class="tags">
+              <div class="popular-tags">Popular tags</div>
+            <div class="strokes">
+            <div class="stroke-1 d-flex">
+                <p>perl</p>
+                <p>python</p>
+                <p>TechnoPark</p>
+            </div>
+            <div class="stroke-2 d-flex">
+                <p>MySQL</p>
+                <p>Django</p>
+            </div>
+            <div class="stroke-3 d-flex">
+                <p>Mail.Ru</p>
+                <p>Voloshin</p>
+                <p>Firefox</p>
+            </div>
+        </div>
+        </div>
+        <div class="best-members">Best Members</div>
+        <div class="best-members-list">
+            <p>Mr. Freeman</p>
+            <p>Dr. House</p>
+            <p>Bender</p>
+            <p>Queen Victoria</p>
+            <p>V. Pupkin</p>
+        </div>
+        </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
